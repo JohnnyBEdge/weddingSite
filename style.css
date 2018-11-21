@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(background.jpg);
+}
+
+#finally{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 8vw;
+    text-align: center;
+    margin: 0 auto;
+}
+
+ul{
+    text-align: center;
+}
+
+.navBar li{
+    font-family: 'Niconne', cursive;
+    font-size: 2.5em;
+    display: inline;
+    text-align: center;
+    padding: 0 10px;
+}
+
+#johnsarah{
+    font-family: 'Niconne', cursive;
+    font-size: 5em;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    top: 250px;
+    left: 230px;
+    z-index: 1;
+    color: white;
+    text-shadow: 3px 3px 0px #000;
+}
+
+
+#date{
+    text-align: center;
+    font-family: 'Niconne', cursive;
+    font-size: 2.9em; 
+    position: absolute;
+    top: 500px;
+    left: 540px;
+    z-index: 1;
+    color: white;
+    text-shadow: 3px 3px 0px #000;
+}
+
+#mainPhoto img{
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+    height: auto;
+    padding: 20px;
+    position: relative;
+    top:50px;
+}
