@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-body{
+#mainSection{
     background-image: url(background.jpg);
 }
 
@@ -32,7 +32,7 @@ ul{
     text-align: center;
     margin: 0 auto;
     position: absolute;
-    top: 250px;
+    top: 590px;
     left: 230px;
     z-index: 1;
     color: white;
@@ -43,19 +43,18 @@ ul{
 #date{
     text-align: center;
     font-family: 'Niconne', cursive;
-    font-size: 2.9em; 
+    font-size: 2.5em;
     position: absolute;
-    top: 500px;
+    top: 190px;
     left: 540px;
     z-index: 1;
-    color: white;
-    text-shadow: 3px 3px 0px #000;
+    color: black;
 }
 
 #mainPhoto img{
     display: block;
     margin: 0 auto;
-    width: 75%;
+    width: 50%;
     height: auto;
     padding: 20px;
     position: relative;
@@ -66,6 +65,7 @@ h3{
     font-family: 'Niconne', cursive;
     font-size: 2.9em; 
     text-align: center;
+    font-weight: 100;
 }
 
 p{
@@ -78,4 +78,20 @@ p{
     margin: 0 auto;
     text-align: justify;
     margin-top: 50px;
+}
+
+#storySection{
+    background-color: #f8f3e6;
+    }
+
+#detailsSection{
+    background-image: url(background.jpg);
+}
+
+#rsvpSection{
+    background-image: url(background.jpg);
+}
+    
+#registrySection{
+    background-image: url(background.jpg);
 }
