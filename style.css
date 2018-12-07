@@ -3,74 +3,32 @@
     padding: 0;
 }
 
-#mainSection{
-    background-image: url(background.jpg);
+body{
+    display: flex;
+    background-image: url(background.jpg)
+}
+
+#header{
+    margin: auto;
 }
 
 #finally{
-    font-family: 'Fredericka the Great', cursive;
-    font-size: 8vw;
+    margin: 0;
     text-align: center;
-    margin: 0 auto;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 8.5vw;
 }
 
-ul{
-    text-align: center;
+
+.navBar{
+    font-family: 'Niconne', cursive;
+    font-size: 3vw;
+    list-style: none;
+    display: flex;
 }
 
 .navBar li{
-    font-family: 'Niconne', cursive;
-    font-size: 2.5em;
-    display: inline;
-    text-align: center;
-    padding: 0 10px;
-}
-
-#johnsarah{
-    font-family: 'Niconne', cursive;
-    font-size: 5em;
-    text-align: center;
-    margin: 0 auto;
-    position: absolute;
-    top: 590px;
-    left: 230px;
-    z-index: 1;
-    color: white;
-    text-shadow: 3px 3px 0px #000;
-}
-
-
-#date{
-    text-align: center;
-    font-family: 'Niconne', cursive;
-    font-size: 2.5em;
-    position: absolute;
-    top: 190px;
-    left: 540px;
-    z-index: 1;
-    color: black;
-}
-
-#mainPhoto img{
-    display: block;
-    margin: 0 auto;
-    width: 50%;
-    height: auto;
-    padding: 20px;
-    position: relative;
-    top:50px;
-}
-
-h3{
-    font-family: 'Niconne', cursive;
-    font-size: 2.9em; 
-    text-align: center;
-    font-weight: 100;
-}
-
-p{
-    font-size: 2.5em;
-    font-family: 'Niconne', cursive;
+    padding-right: 20px;
 }
 
 #story{
@@ -78,20 +36,29 @@ p{
     margin: 0 auto;
     text-align: justify;
     margin-top: 50px;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 #storySection{
     background-color: #f8f3e6;
+    width: 75%;
+    height: auto;
     }
 
 #detailsSection{
-    background-image: url(background.jpg);
+    background-color: #f8f3e6;
+    width: 75%;
+    height: auto;
 }
 
 #rsvpSection{
-    background-image: url(background.jpg);
+    background-color: #f8f3e6;
+    width: 75%;
+    height: auto;
 }
     
 #registrySection{
-    background-image: url(background.jpg);
+    background-color: #f8f3e6;
+    width: 75%;
+    height: auto;
 }
