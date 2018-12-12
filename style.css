@@ -7,10 +7,12 @@ body{
     display: flex;
     background-image: url(background.jpg);
     flex-direction: column;
+    margin-bottom: 200px;
 }
 
 #header{
     margin: auto;
+
 }
 
 #finally{
@@ -32,9 +34,9 @@ body{
     padding-right: 20px;
 }
 
-#main{
+
+#mainPhoto{
     display: flex;
-    background-color: red;
     justify-content: center;
     align-items: center;
 }
@@ -45,6 +47,17 @@ body{
     .navBar{
         font-size: 5vw;
     }
+  }
+
+  #main img {
+   
+  }
+
+  #johnsarah{
+      z-index: 1;
+      font-size: 5vw;
+      text-align: center;
+      font-family: 'Open Sans Condensed', cursive;
   }
 
 #story{
@@ -62,9 +75,15 @@ body{
     }
 
 #detailsSection{
-    background-color: #f8f3e6;
-    width: 75%;
+    background-color: #f3f3f3;
+    width: 700px;
     height: auto;
+    margin: 0 auto;
+    box-shadow: 3px 4px 9px 0px rgba(0,0,0,0.82);
+    border-radius: 5px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 3vw;
+    text-align: justify;
 }
 
 #rsvpSection{
