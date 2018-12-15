@@ -83,7 +83,38 @@ body{
     border-radius: 5px;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 3vw;
-    text-align: justify;
+    text-align: center;
+}
+
+#cereAndRecep{
+    margin: 0;
+    text-align: center;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 4vw;
+}
+
+#louland{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#detailsSection img{
+    width: 75%;
+}
+
+#directions{
+    margin: 10px 0;
+}
+
+#address p{
+    font-size: 2vw;
+    padding: 5px;
+}
+
+#directions ul{
+    font-size: 1.5vw;
+    list-style-type: none; 
 }
 
 #rsvpSection{
