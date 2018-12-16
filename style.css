@@ -69,6 +69,7 @@ body{
 }
 
 .section{
+    /* display: flex; */
     margin-top: 50px;
     background-color: red;
     margin: 0 auto;
@@ -147,4 +148,54 @@ body{
     height: auto;
 }
 
+form{
+    margin-bottom: 100px;
+}
 
+form p{
+    font-size: 2vw;
+}
+
+
+
+button {
+    color: #666;
+    background-color: #da9c89;
+    border: none;
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 32px;
+    width: 200px;
+    margin: 20px auto 0px auto; 
+  }
+  
+  button.accept {
+    border-radius: 0px 0px 0px 10px;
+    border-right: solid 1px #cc919a;
+  }
+  
+  button.regret {
+    border-radius: 0px 0px 10px 0px;
+  }
+  
+  button:hover {
+    background-color: #b6e094;
+    transition: .5s;
+  }
+  
+  button:focus {
+    outline: 0;
+  }
+
+  #rsvpSection {
+    font-size: 1.5vw;
+}
+
+#rsvpSection input{
+    margin: 10px 20px;
+}
+
+textarea{
+    padding: 5px;
+}
