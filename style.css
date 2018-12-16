@@ -49,10 +49,6 @@ body{
     }
   }
 
-  #main img {
-   
-  }
-
   #johnsarah{
       z-index: 1;
       font-size: 5vw;
@@ -60,13 +56,7 @@ body{
       font-family: 'Open Sans Condensed', cursive;
   }
 
-/* #story{
-    width: 75%;
-    margin: 0 auto;
-    text-align: justify;
-    margin-top: 50px;
-    font-family: 'Open Sans Condensed', sans-serif;
-} */
+
 
 .section{
     /* display: flex; */
@@ -84,12 +74,21 @@ body{
     font-size: 3vw;
     text-align: center;
     margin-top: 100px;
+    padding-bottom: 50px;
     }
 
-    #storySection p{
+    #story {
+        margin: 0;
+        text-align: center;
+        font-family: 'Fredericka the Great', cursive;
+        font-size: 4vw;
+    }
+
+    .storyText {
         font-size: 2vw;
         text-align: justify;
-        margin: 0 15px;
+        margin: 10px 20px;
+        text-indent: 20px;
     }
 
 #detailsSection{
