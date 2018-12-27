@@ -14,6 +14,7 @@
 
         <ul class="navBar">
             <li>.  Our Story . </li>
+            <li>Photos .</li>
             <li>The Details . </li>
             <li>RSVP . </li>
             <li>Registry .</li>
@@ -29,7 +30,7 @@
         </div>
     </div>
 
-    <div class="section" class="sections">
+    <div class="section" class="story">
         <div id="storySection">
             <p id="story">Our Story</p>
                 <p class="storyText">Sarah and John met while going to university together in Orlando, Florida.
@@ -60,7 +61,48 @@
 
 
                 </p>
-        </div>
+    </div>
+
+    <div class="section" id="gallery">
+            <p id="photos">Photos</p>
+        <div class="slideshowContainer">
+            <div class="slides fade">
+                <img class="images" id="img1" src="gallery/one.jpg" alt="">
+            </div>
+            
+            <div class="slides fade">  
+                <img class="images" id="img2" src="gallery/two.jpg" alt="">
+            </div>
+            
+            <div class="slides fade">  
+                <img class="images" id="img3"   src="gallery/three.jpg" alt="">
+            </div>
+
+            <div class="slides fade">  
+                <img class="images" id="img4"   src="gallery/four.jpg" alt="">
+            </div>
+
+            <div class="slides fade">  
+                <img class="images" id="img5"   src="gallery/five.jpg" alt="">
+            </div>
+            
+            <div class="slides fade">  
+                <img class="images" id="img6"   src="gallery/six.jpg" alt="">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>  
+          </div>
+          
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+    </div>
 
     <div class="section" id="detailsSection">
         <p id="cereAndRecep">Ceremony and Reception</p>
@@ -112,13 +154,13 @@
         </form>
     </div> 
 
-    <<div class="section" id="registrySection">
+    <div class="section" id="registrySection">
         <h3>Registry</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis sequi possimus provident est similique amet consectetur molestias quisquam? Dolores accusamus error molestiae eius magni necessitatibus delectus corrupti praesentium eos quasi?</p>
     </div>
 </div>
 
-    
+ <script src="main.js"></script>   
 </body>
 <script>
 </script>
