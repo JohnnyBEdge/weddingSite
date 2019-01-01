@@ -17,14 +17,14 @@ body{
 }
 
 .section{
-    background-color: antiquewhite;
-    border: solid black 2px;
+    background-color: #f3f3f3;
     margin: 5% 20%;
     height: 500px;
+    box-shadow: 3px 4px 9px 0px rgba(0,0,0,0.82);
+    border-radius: 5px;
 }
 
 #navigation{
-    border: none;
     background: none;
     width: 100%;
     height: auto;
@@ -62,7 +62,6 @@ body{
     display: flex;
     flex-direction: column;
     background: none;
-    border:none;
     margin: 0;
     height: auto;
     justify-content: center;
@@ -87,49 +86,30 @@ body{
     font-family: 'Fredericka the Great', cursive;
 }
 
+#story{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 3vw;
+    text-align: center;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    height: auto;
+    }
+
+#story h3{
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: 100;
+}
+
+.storyText {
+    font-size: 2vw;
+    text-align: justify;
+    margin: 10px 100px;
+    text-indent: 20px;
+}
+
 
 /* 
-#header{
-    margin: auto;
 
-}
-
-#finally{
-    margin: 0;
-    text-align: center;
-    font-family: 'Fredericka the Great', cursive;
-    font-size: 8.5vw;
-}
-
-
-.navBar{
-    font-family: 'Niconne', cursive;
-    font-size: 3vw;
-    list-style: none;
-    display: flex;
-}
-
-.navBar li{
-    padding-right: 20px;
-}
-
-
-#mainPhoto{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-@media screen and (max-width: 992px) {
-    #mainPhoto img {
-      width: 200px;
-    }
-    .navBar{
-        font-size: 5vw;
-    }
-    .section{
-        width: auto;
-    }
-  }
 
   #johnsarah{
       z-index: 1;
