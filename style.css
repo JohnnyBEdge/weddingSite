@@ -34,7 +34,9 @@ body{
 #navigation ul{
     display: flex;
     list-style: none;
-    font-family: 'Niconne', cursive;
+    font-family: 'Open Sans Condensed', cursive;
+
+    /* font-family: 'Niconne', cursive; */
     font-size: 3.5vw;
     padding: 0;
     justify-content: space-evenly;
@@ -56,66 +58,35 @@ body{
     }
 }
 
-
-/* #header{
+#home{
+    display: flex;
+    flex-direction: column;
     background: none;
-    border: none;
+    border:none;
+    margin: 0;
+    height: auto;
     justify-content: center;
     align-items: center;
-    background-color: red;
-    width: 100%;
-    margin: 0 auto;
-} */
-
-/* 
-#navigation ul{
-    display: flex;
-    width:100%;
-    margin:0;
-    height: 50px;
-    background-color: green;
-    border: none;
-
 }
-
-.navBar{
-    font-family: 'Niconne', cursive;
-    font-size: 3vw;
-    list-style: none;
-    display: flex;
-}
-
-.navBar li{
-    margin-right: 2%;
-} */
 
 #finally{
-    margin: 0;
-    text-align: center;
     font-family: 'Fredericka the Great', cursive;
     font-size: 8.5vw;
-    margin-top: 5%;
+    margin-top: 1%;
 }
 
 #mainPhoto{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 50%;
+    height: auto;
 }
 
 #lefartin{
     text-align: center;
     margin-top: 1%;
-    font-size: 5vw;
-    font-family: 'Open Sans Condensed', cursive;
+    font-size: 4vw;
+    font-family: 'Fredericka the Great', cursive;
 }
 
-
-#home{
-    display: flex;
-    justify-content: center;
-    
-}
 
 /* 
 #header{
