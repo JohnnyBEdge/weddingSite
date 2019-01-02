@@ -116,61 +116,18 @@ body{
     text-indent: 20px;
 }
 
-
-/* 
-
-
-  #johnsarah{
-      z-index: 1;
-      font-size: 5vw;
-      text-align: center;
-      font-family: 'Open Sans Condensed', cursive;
-  }
-
-.section{
-    display: flex;
-    flex-direction: column;
-    margin: 0 4em;
-    align-items: center;
-    justify-content: center;
-}
-
-#storySection{
-    width: 900px;
-    background-color: #f3f3f3;
-    box-shadow: 3px 4px 9px 0px rgba(0,0,0,0.82);
-    border-radius: 5px;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 3vw;
-    text-align: center;
-    margin-top: 100px;
-    padding-bottom: 50px;
-    }
-
-    #story {
-        margin: 0;
-        text-align: center;
-        font-family: 'Fredericka the Great', cursive;
-        font-size: 4vw;
-    }
-
-    .storyText {
-        font-size: 2vw;
-        text-align: justify;
-        margin: 10px 130px;
-        text-indent: 20px;
-    }
-
 #gallery{
     display:flex;
-    width: 900px;
     background-color: #f3f3f3;
     box-shadow: 3px 4px 9px 0px rgba(0,0,0,0.82);
     border-radius: 5px;
     margin-top: 100px;
     padding-bottom: 50px;
     height: 850px;
-
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
 }
 
 #photos{
@@ -183,7 +140,7 @@ body{
 .slideshowContainer{
     max-width: 1000px;
     position: relative;
-    margin: auto;
+    margin: 10px 0;
 }
       
 .images{
@@ -200,7 +157,7 @@ body{
     cursor: pointer;
     height: 15px;
     width: 15px;
-    margin: 0 2px;
+    margin: 20px 2px;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
@@ -251,6 +208,23 @@ body{
         from {opacity: .4}
         to {opacity: 1}
       }
+
+
+/* 
+
+
+  #johnsarah{
+      z-index: 1;
+      font-size: 5vw;
+      text-align: center;
+      font-family: 'Open Sans Condensed', cursive;
+  }
+
+
+
+
+
+
 
 #detailsSection{
     background-color: #f3f3f3;
