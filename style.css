@@ -24,6 +24,15 @@ body{
     border-radius: 5px;
 }
 
+.sectionBreak{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sectionBreak img{
+    width: 25%;
+}
+
 #navigation{
     background: none;
     width: 100%;
