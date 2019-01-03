@@ -38,6 +38,7 @@ body{
     width: 100%;
     height: auto;
     margin: 0 auto;
+    box-shadow: none;
 }
 
 #navigation ul{
@@ -75,6 +76,7 @@ body{
     height: auto;
     justify-content: center;
     align-items: center;
+    box-shadow: none;
 }
 
 #finally{
@@ -93,6 +95,7 @@ body{
     margin-top: 1%;
     font-size: 4vw;
     font-family: 'Fredericka the Great', cursive;
+    margin-bottom: 50px;
 }
 
 #story{
@@ -146,7 +149,6 @@ body{
 .images{
     width: 700px;
     height: auto;
-    box-shadow: 3px 4px 9px 0px rgba(0,0,0,0.82);
 }
       
 .slides{
@@ -209,24 +211,7 @@ body{
         to {opacity: 1}
       }
 
-
-/* 
-
-
-  #johnsarah{
-      z-index: 1;
-      font-size: 5vw;
-      text-align: center;
-      font-family: 'Open Sans Condensed', cursive;
-  }
-
-
-
-
-
-
-
-#detailsSection{
+#details{
     background-color: #f3f3f3;
     box-shadow: 3px 4px 9px 0px rgba(0,0,0,0.82);
     border-radius: 5px;
@@ -234,6 +219,7 @@ body{
     font-size: 3vw;
     text-align: center;
     margin-top: 100px;
+    height: auto;
 }
 
 #cereAndRecep{
@@ -247,7 +233,7 @@ body{
     align-items: center;
 }
 
-#detailsSection img{
+#details img{
     width: 75%;
 }
 
@@ -265,21 +251,27 @@ body{
     list-style-type: none; 
 }
 
-#rsvpSection{
+#rsvp{
     background-color: #f3f3f3;
-    box-shadow: 3px 4px 9px 0px rgba(0,0,0,0.82);
     border-radius: 5px;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 3vw;
     text-align: center;
     margin-top: 100px;
+    height: auto;
 }
 #RSVP{
     text-align: center;
     font-family: 'Fredericka the Great', cursive;
     font-size: 4vw;
-
 }
+
+#rsvp button{
+    margin-bottom: 25px;
+}
+
+/* 
+
     
 #registrySection{
     background-color: #f8f3e6;
