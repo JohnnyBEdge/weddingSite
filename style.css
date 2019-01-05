@@ -19,9 +19,10 @@ body{
 .section{
     background-color: #f3f3f3;
     margin: 5% 20%;
-    height: 500px;
+    height: auto;
     box-shadow: 3px 4px 9px 0px rgba(0,0,0,0.82);
     border-radius: 5px;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .sectionBreak{
@@ -45,15 +46,37 @@ body{
     display: flex;
     list-style: none;
     font-family: 'Open Sans Condensed', cursive;
-
-    /* font-family: 'Niconne', cursive; */
     font-size: 3.5vw;
     padding: 0;
     justify-content: space-evenly;
 }
 
-@media only screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
+    .section h1{
+        font-size: 5em;
+    }
+    .section h2{
+        font-size: 2.5em;
+    }
+    .section h3{
+        font-size:2em;
+    }
 
+    .section{
+        width: 95%;
+        margin:0 auto;
+    }
+    .section p{
+        font-size: 1.5em;
+    }
+    #home{
+        order: -1;
+    }
+
+    #gallery img{
+        max-width: 95%;
+        margin-left: 10px;
+    }
 
     #navigation ul{
         flex-direction: column;
@@ -79,10 +102,11 @@ body{
     box-shadow: none;
 }
 
-#finally{
+h1{
     font-family: 'Fredericka the Great', cursive;
-    font-size: 8.5vw;
+    font-size: 10em;
     margin-top: 1%;
+    font-weight: normal;
 }
 
 #mainPhoto{
@@ -90,33 +114,31 @@ body{
     height: auto;
 }
 
-#lefartin{
+h2{
     text-align: center;
     margin-top: 1%;
     font-size: 4vw;
     font-family: 'Fredericka the Great', cursive;
     margin-bottom: 50px;
+    font-weight: normal;
 }
 
-#story{
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 3vw;
+h3{
+    font-family: 'Fredericka the Great', cursive;;
+    font-size: 1.5em;
     text-align: center;
-    margin-top: 100px;
-    padding-bottom: 50px;
+    margin-top: 2%;
+    padding-bottom: 2%;
     height: auto;
+    font-weight: normal;
     }
 
-#story h3{
-    font-family: 'Fredericka the Great', cursive;
-    font-weight: 100;
-}
-
 .storyText {
-    font-size: 2vw;
+    font-size: 2em;
     text-align: justify;
-    margin: 10px 100px;
+    margin: 10px 4%;
     text-indent: 20px;
+    font-family: 'Open Sans Condensed', cursive;
 }
 
 #gallery{
@@ -131,13 +153,6 @@ body{
     justify-content: center;
     flex-direction: column;
     height: auto;
-}
-
-#photos{
-    margin: 0;
-    text-align: center;
-    font-family: 'Fredericka the Great', cursive;
-    font-size: 4vw;
 }
 
 .slideshowContainer{
@@ -222,12 +237,6 @@ body{
     height: auto;
 }
 
-#cereAndRecep{
-    text-align: center;
-    font-family: 'Fredericka the Great', cursive;
-    font-size: 4vw;
-}
-
 #louland{
     justify-content: center;
     align-items: center;
@@ -252,18 +261,11 @@ body{
 }
 
 #rsvp{
-    background-color: #f3f3f3;
-    border-radius: 5px;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 3vw;
+
+    font-size: 4vw;
     text-align: center;
     margin-top: 100px;
     height: auto;
-}
-#RSVP{
-    text-align: center;
-    font-family: 'Fredericka the Great', cursive;
-    font-size: 4vw;
 }
 
 #rsvp button{
