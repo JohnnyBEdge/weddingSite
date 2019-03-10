@@ -63,34 +63,90 @@
         </div>
 
         <div class="sectionBreak">
-            <img src="wand.png" alt="">
+            <img src="saber2.png" alt="">
         </div>
         
         <div class="section" id="gallery">
             <h3 id="photos">Photos</h3>
             <div class="slideshowContainer">
                 <div class="slides fade">
-                    <img class="images" id="img1" src="gallery/one.jpg" alt="">
+                    <img class="images" id="img1" src="gallery/1.jpg" alt="">
             </div>
                     
             <div class="slides fade">  
-                <img class="images" id="img2" src="gallery/two.jpg" alt="">
+                <img class="images" id="img2" src="gallery/2.jpg" alt="">
             </div>
             
             <div class="slides fade">  
-                <img class="images" id="img3"   src="gallery/three.jpg" alt="">
+                <img class="images" id="img3"   src="gallery/3.jpg" alt="">
             </div>
 
             <div class="slides fade">  
-                <img class="images" id="img4"   src="gallery/four.jpg" alt="">
+                <img class="images" id="img4"   src="gallery/4.jpg" alt="">
             </div>
 
             <div class="slides fade">  
-                <img class="images" id="img5"   src="gallery/five.jpg" alt="">
+                <img class="images" id="img5"   src="gallery/5.jpg" alt="">
             </div>
             
             <div class="slides fade">  
-                <img class="images" id="img6"   src="gallery/six.jpg" alt="">
+                <img class="images" id="img6"   src="gallery/6.jpg" alt="">
+            </div>
+                        
+            <div class="slides fade">  
+                <img class="images" id="img6"   src="gallery/7.jpg" alt="">
+            </div>
+                        
+            <div class="slides fade">  
+                <img class="images" id="img6"   src="gallery/8.jpg" alt="">
+            </div>
+                        
+            <div class="slides fade">  
+                <img class="images" id="img6"   src="gallery/9.jpg" alt="">
+            </div>
+                        
+            <div class="slides fade">  
+                <img class="images" id="img6"   src="gallery/10.jpg" alt="">
+            </div>
+                        
+            <div class="slides fade">  
+                <img class="images" id="img6"   src="gallery/11.jpg" alt="">
+            </div>
+                        
+            <div class="slides fade">  
+                <img class="images" id="img6"   src="gallery/12.jpg" alt="">
+            </div>
+                        
+            <div class="slides fade">  
+                <img class="images" id="img6"   src="gallery/13.jpg" alt="">
+            </div>
+                        
+            <div class="slides fade">  
+                <img class="images" id="img6"   src="gallery/14.jpg" alt="">
+            </div>
+                        
+            <div class="slides fade">  
+                <img class="images" id="img6"   src="gallery/15.jpg" alt="">
+            </div>
+                        
+            <div class="slides fade">  
+                <img class="images" id="img6"   src="gallery/16.jpg" alt="">
+            </div>
+                        
+            <div class="slides fade">  
+                <img class="images" id="img6"   src="gallery/17.jpg" alt="">
+            </div>
+                        
+            <div class="slides fade">  
+                <img class="images" id="img6"   src="gallery/18.jpg" alt="">
+            </div>
+                        
+            <div class="slides fade">  
+                <img class="images" id="img6"   src="gallery/19.jpg" alt="">
+            </div>
+                        
+            <div class="slides fade">  
+                <img class="images" id="img6"   src="gallery/20.jpg" alt="">
             </div>
 
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -143,29 +199,30 @@
         </div>
 
         <div class="sectionBreak">
-            <img src="wand.png" alt="">
+            <img src="saber2.png" alt="">
         </div>
 
         <div class="section" id="rsvp">
             <h3 id="RSVP">RSVP...</h3>
            
-            <form action="">
+            <form action="jrmartin182@gmail.com" method="post">
                 <p>...for the wedding of Sarah and John</p>
-                <input type="text" name="firstName" placeholder="First name">
-                <input type="text" name="lastName" placeholder="Last name">
+                <input type="text" name="name" placeholder="First and last name:">
+                <input type="text" name="email" placeholder="Email:">
                 <br>
                 <input type="number" name="guests" placeholder="# guests">
                 <br>
-                <input type="radio" name="foodOption" value="option1">Food1
-                <input type="radio" name="foodOption" value="option2">Food2
-                <input type="radio" name="foodOption" value="option3">Food3
+                <input type="checkbox" name="foodOption" value="option1">Food1
+                <input type="checkbox" name="foodOption" value="option2">Food2
+                <input type="checkbox" name="foodOption" value="option3">Food3
                 <br>
                 <textarea name="comments" id="rsvpComments" cols="50" rows="10" placeholder="Food restrictions, music requests, other comments?"></textarea>
                 <br>
-                <button class ="accept">Accept</button>
-                <button class ="regret">Regret</button>
+                <button type="submit" class ="accept" name="submit">Accept</button>
+                <button type="submit" class ="regret" name="regret">Regret</button>
     
             </form>
+   
         </div>
 
         <div class="sectionBreak">
@@ -195,7 +252,7 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis sequi possimus provident est similique amet consectetur molestias quisquam? Dolores accusamus error molestiae eius magni necessitatibus delectus corrupti praesentium eos quasi?</p>
     </div>
 </div> -->
-
+<?php include 'contactForm.php';?>
  <script src="main.js"></script>   
 </body>
 <script>

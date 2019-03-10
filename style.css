@@ -125,7 +125,7 @@ h2{
 
 h3{
     font-family: 'Fredericka the Great', cursive;;
-    font-size: 1.5em;
+    font-size: 48px;
     text-align: center;
     margin-top: 2%;
     padding-bottom: 2%;
@@ -262,7 +262,7 @@ h3{
 
 #rsvp{
 
-    font-size: 4vw;
+    font-size: 24px;
     text-align: center;
     margin-top: 100px;
     height: auto;
@@ -271,28 +271,6 @@ h3{
 #rsvp button{
     margin-bottom: 25px;
 }
-
-/* 
-
-    
-#registrySection{
-    background-color: #f8f3e6;
-    width: 90%;
-    height: auto;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 3vw;
-    text-align: center;
-}
-
-form{
-    margin-bottom: 100px;
-}
-
-form p{
-    font-size: 2vw;
-}
-
-
 
 button {
     color: #666;
@@ -323,6 +301,21 @@ button {
   button:focus {
     outline: 0;
   }
+
+
+
+/* 
+
+    
+#registrySection{
+    background-color: #f8f3e6;
+    width: 90%;
+    height: auto;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 3vw;
+    text-align: center;
+}
+
 
   #rsvpSection {
     font-size: 1.5vw;
