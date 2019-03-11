@@ -304,10 +304,10 @@ button {
 
 
 
-/* 
+
 
     
-#registrySection{
+#registregistrySection{
     background-color: #f8f3e6;
     width: 90%;
     height: auto;
@@ -316,8 +316,13 @@ button {
     text-align: center;
 }
 
+#blueprint{
+    width: 300px;
+    border: solid black 1px;
+    border-radius: 5px;
+}
 
-  #rsvpSection {
+#rsvpSection {
     font-size: 1.5vw;
 }
 
@@ -327,4 +332,4 @@ button {
 
 textarea{
     padding: 5px;
-} */
+}
