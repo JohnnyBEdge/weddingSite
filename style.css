@@ -25,6 +25,11 @@ body{
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
+.section a{
+    text-decoration: none;
+    color: black;
+}
+
 .sectionBreak{
     display: flex;
     align-items: center;
