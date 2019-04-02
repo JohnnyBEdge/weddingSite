@@ -26,3 +26,25 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 } 
+
+const gallery = document.querySelector('.gallery');
+const overlay = document.querySelector('.overlay');
+const overlayImage = document.querySelector('.img');
+const overlayClose = document.querySelector('.close');
+
+function generateHTML([h,v]){
+  return `
+    <div class="item h${h} v${v}">
+      <img src="images/${randomNumber(20)}.jpg">
+      <div class="item__overlay">
+        <button>View → </button>
+      </div>
+  `;
+}
+
+function randomNumber(limit){
+  return Math.floor(Math.random()*limit)+1;
+}
+
+const digit = Array.from(){length: 50}, () => 
+  [randomNumber(4), randomNumber(4)];
