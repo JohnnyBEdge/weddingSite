@@ -146,6 +146,13 @@ h3{
     font-family: 'Open Sans Condensed', cursive;
 }
 
+.storyPhoto{
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
 #gallery{
     display:flex;
     background-color: #f3f3f3;
@@ -309,19 +316,13 @@ button {
   button:focus {
     outline: 0;
   }
-
-
-
-
-
-    
-#registregistrySection{
-    background-color: #f8f3e6;
-    width: 90%;
-    height: auto;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 3vw;
-    text-align: center;
+   
+#registry p{
+    font-size: 1.5em;
+    text-align: justify;
+    margin: 10px 4%;
+    text-indent: 20px;
+    font-family: 'Open Sans Condensed', cursive;
 }
 
 #blueprint{
