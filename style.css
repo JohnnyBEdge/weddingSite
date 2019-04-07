@@ -329,6 +329,8 @@ button {
     width: 300px;
     border: solid black 1px;
     border-radius: 5px;
+    margin: 0 auto;
+    display: block;
 }
 
 #rsvpSection {
