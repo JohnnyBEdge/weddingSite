@@ -5,7 +5,7 @@
   body {
     padding: 50px;
     font-family: sans-serif;
-    background: linear-gradient(to right, #F93D66, #6D47D9);
+    background-image: url(images/background.jpg);
   }
 
   h1,
@@ -23,7 +23,7 @@
 
   .close {
     background: none;
-    color: white;
+    color: black;
     border: 0;
   }
 
@@ -79,22 +79,27 @@
 
   }
 
-  .item.v2{
+  .item.v2 {
     grid-row: span 2;
   }
-  .item.v3{
+
+  .item.v3 {
     grid-row: span 3;
   }
-  .item.v4{
+
+  .item.v4 {
     grid-row: span 4;
   }
-  .item.h2{
+
+  .item.h2 {
     grid-column: span 2;
   }
-  .item.h3{
+
+  .item.h3 {
     grid-column: span 3;
   }
-  .item.h4{
+
+  .item.h4 {
     grid-column: span 4;
   }
 
@@ -114,9 +119,11 @@
 
   .overlay.open {
     display: grid;
+    align-items: center;
+    justify-items: center;
   }
 
-  .overlay figure {
+  .overlay-inner {
     background: white;
     width: 700px;
     padding: 20px;
