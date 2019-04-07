@@ -341,3 +341,10 @@ button {
 textarea{
     padding: 5px;
 }
+
+.top{
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 12px;
+    padding: 10px;
+}
