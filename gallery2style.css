@@ -1,11 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     padding: 50px;
     font-family: sans-serif;
     background-image: url(images/background.jpg);
-  }
+}
 
-.overlay{
-    background-color: beige;
+h3{
+    font-family: 'Fredericka the Great', cursive;;
+    font-size: 6em;
+    text-align: center;
+    margin-top: 1%;
+    padding-bottom: 1%;
+    height: auto;
+    font-weight: normal;
+}
+
+.close {
+    background: none;
+    color: black;
+    border: 0;
 }
 
 .gallery{
@@ -13,13 +29,12 @@ body {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(8,300px);
     justify-items: center;
-    background-color: #f3f3f3;
-}
+    }
 
 @media screen and (max-width: 600px) {
     .gallery {
         grid-template-columns: 1fr;
-        /* grid-template-rows: 1fr; */
+        grid-template-rows: 1fr;
     }
   }
 
@@ -36,37 +51,70 @@ body {
     object-fit: cover;
 }
 
-h3{
-    font-family: 'Fredericka the Great', cursive;;
-    font-size: 6em;
-    text-align: center;
-    margin-top: 1%;
-    padding-bottom: 1%;
-    height: auto;
-    font-weight: normal;
+.item {
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 1;
 }
 
-.item__overlay{
-    position: relative;
-    grid-column: 1/-1;
-    grid-row: 1/-1;
+.item img {
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.item__overlay {
     background: #ffc60032;
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
+    position: relative;
     display: grid;
     justify-items: center;
     align-items: center;
-    transform: translateY(100%);
     transition: 0.2s;
-  }
+    transform: translateY(100%);
+}
 
-  .gallery-item:hover .gallery-item__overlay{
-    transform: translateY(0);
-  }
-
-.item__overlay button{
+.item__overlay button {
     background: none;
     border: 2px solid white;
     color: white;
     text-transform: uppercase;
     background: rgba(0, 0, 0, 0.7);
     padding: 5px;
-  }
+}
+
+.item:hover .item__overlay {
+    transform: translateY(0);
+}
+
+.overlay {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.7);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+    z-index: 2;
+}
+
+.overlay.open {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.overlay-inner {
+    background: white;
+    width: 640px;
+    padding: 20px;
+}
+
+.overlay img {
+    width: auto;
+    max-height: 900px
+}
