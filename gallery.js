@@ -1,4 +1,4 @@
-const gallery = document.querySelector('.gallery');
+// const gallery = document.querySelector('.gallery');
 const overlay = document.querySelector('.overlay');
 const overlayImage = overlay.querySelector('img');
 const overlayClose = overlay.querySelector('.close');
@@ -10,15 +10,16 @@ function handleClick(e) {
   overlay.classList.add('open');
 }
 
-
 function close() {
   overlay.classList.remove('open');
 }
 
-
 const items = document.querySelectorAll('.item');
-
 items.forEach(item => item.addEventListener('click', handleClick));
-
 overlayClose.addEventListener('click', close);
 
+window.onkeyup = function (event) {
+  if (event.keyCode == 27) {
+   window.close();
+  }
+ }
