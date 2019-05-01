@@ -47,6 +47,11 @@ body{
     box-shadow: none;
 }
 
+#navigation a:hover{
+    text-shadow: 2px 2px rgb(105, 100, 100);  
+}
+
+
 #navigation ul{
     display: flex;
     list-style: none;
@@ -55,6 +60,7 @@ body{
     padding: 0;
     justify-content: space-evenly;
 }
+
 
 @media screen and (max-width: 767px) {
     .section h1{
@@ -331,6 +337,11 @@ button {
     border-radius: 5px;
     margin: 0 auto;
     display: block;
+}
+
+#blueprint:hover{
+    box-shadow: 2px 2px rgb(105, 100, 100);  
+    }
 }
 
 #rsvpSection {
