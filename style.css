@@ -61,47 +61,6 @@ body{
     justify-content: space-evenly;
 }
 
-
-@media screen and (max-width: 767px) {
-    .section h1{
-        font-size: 5em;
-    }
-    .section h2{
-        font-size: 2.5em;
-    }
-    .section h3{
-        font-size:2em;
-    }
-
-    .section{
-        width: 95%;
-        margin:0 auto;
-    }
-    .section p{
-        font-size: 1.5em;
-    }
-    #home{
-        order: -1;
-    }
-
-    #gallery img{
-        max-width: 95%;
-        margin-left: 10px;
-    }
-
-    #navigation ul{
-        flex-direction: column;
-        font-size: 9vw;
-        justify-content: center;
-        align-items: center;
-    }
-
-    #navigation li{
-        flex-basis: 100%;
-        
-    }
-}
-
 #home{
     display: flex;
     flex-direction: column;
@@ -127,7 +86,7 @@ h1{
 
 h2{
     text-align: center;
-    margin-top: 1%;
+    margin-top: 2%;
     font-size: 4vw;
     font-family: 'Fredericka the Great', cursive;
     margin-bottom: 50px;
@@ -395,4 +354,85 @@ textarea{
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 12px;
     padding: 10px;
+}
+
+
+
+
+
+@media screen and (max-width: 767px) {
+    .section h1{
+        font-size: 5em;
+    }
+    .section h2{
+        font-size: 2.5em;
+    }
+    .section h3{
+        font-size:2em;
+    }
+
+    .section{
+        width: 95%;
+        margin:0 auto;
+    }
+    .section p{
+        font-size: 1.5em;
+    }
+    #home{
+        order: -1;
+    }
+
+    #gallery img{
+        max-width: 95%;
+        margin-left: 10px;
+    }
+
+    #navigation ul{
+        flex-direction: column;
+        font-size: 9vw;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    #navigation li{
+        flex-basis: 100%;        
+    }
+
+    #story1{
+        width:90%;
+    }
+
+    .sectionBreak img{
+        margin: 20px;
+        width: 60%;
+    }
+
+    #separator{
+        display: none;
+    }
+    #story p{
+        font-size: 20px;
+    }
+    .storyText{
+        display: block;
+        width: 90%;
+    }
+    #sarahStory{
+        float:left;
+    }
+    h4{
+        display: block;
+        text-align: center;
+    }
+    #address p{
+        font-size: 22px;
+    }
+    #details li{
+        font-size: 18px;
+        justify-content: left;
+    }
+    iframe{
+        width:375px;
+    }
 }
