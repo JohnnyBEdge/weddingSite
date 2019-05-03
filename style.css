@@ -144,33 +144,46 @@ h3{
     font-weight: normal;
     }
 
+h4{
+    font-family: 'Fredericka the Great', cursive;;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 2%;
+    padding-bottom: 2%;
+    height: auto;
+    font-weight: normal;
+    }
+
 .storyText {
-    font-size: 2em;
+    display: inline-block;
+    font-size: 1.5em;
     text-align: justify;
     margin: 10px 4%;
     text-indent: 20px;
+    width: 46%;
     font-family: 'Open Sans Condensed', cursive;
 }
 
-.storyContent{
-    display: inline-block;
-    
-}
 #johnStory{
     float: left;
-    width: 48%;
     margin: 10px;
 }
 #separator{
     display: inline-block;
     width: 3px;
-    height: 200px;
-    background-color: rgb(20, 19, 19);
+    height: 900px;
+    background-color: rgb(83, 78, 78);
+    margin: 5px;
+    border-radius: 50%;
 }
 #sarahStory{
     float:right;
-    width: 48%;
     margin: 10px;
+}
+
+#theirStory{
+    display: block;
+    width: 90%;
 }
 
 .storyPhoto{
