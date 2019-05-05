@@ -16,6 +16,10 @@ body{
     justify-content: center;
 }
 
+#home img{
+    box-shadow: 3px 4px 9px 0px #000000d1;
+}
+
 .section{
     background-color: #f3f3f3;
     margin: 5% 20%;
